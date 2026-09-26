@@ -1,3 +1,4 @@
+#pre req for the python container.
 flask
 prometheus-client
 requests
