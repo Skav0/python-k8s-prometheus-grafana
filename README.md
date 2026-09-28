@@ -9,15 +9,19 @@ This project documents the end-to-end implementation of instrumenting, deploying
 ```text
 python-k8s-prometheus-grafana/
 ├── app/
-│   ├── app.py            # Python web application with Prometheus metrics
-│   ├── Dockerfile        # Container image definition
-│   └── requirements.txt  # Python dependencies (Flask, prometheus-client)
+│   ├── app.py             
+│   ├── Dockerfile       
+│   └── requirements.txt   
 ├── images/
-│   ├── APP.png           # Web app UI screenshot
-│   └── Grafana.png       # Grafana metric visualization screenshot
+│   ├── APP.png           
+│   ├── EKS_CLUSTER_WORKLOAD.png            
+│   ├── Grafana.png            
+│   ├── Python_app.png
+│   ├── Python_app_metric.png     
+│   └── another metric.png
 ├── k8s/
-│   └── deployment.yaml   # Kubernetes Deployment & Service with scrape annotations
-└── README.md             # Project documentation
+│   └── deployment.yaml   
+└── README.md           
 ```
 
 ---
